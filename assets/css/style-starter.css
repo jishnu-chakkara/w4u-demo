@@ -2306,7 +2306,10 @@ progress {
   color: #6c757d;
   opacity: 1;
 }
-
+.form-control-1 {
+  color: #a9a9a9 !important;
+  opacity: 1 !important;
+}
 .form-control::placeholder {
   color: #6c757d;
   opacity: 1;
@@ -20775,7 +20778,9 @@ h5.contact-text {
 }
 
 .w3l-contact-info-main .form-group input,
-.w3l-contact-info-main .form-group textarea {
+.w3l-contact-info-main .form-group textarea,
+.w3l-contact-info-main .form-group select,
+.w3l-contact-info-main .form-group option {
   outline: none;
   padding: 13px 15px;
   color: var(--heading-color);
@@ -20793,7 +20798,9 @@ h5.contact-text {
 }
 
 .w3l-contact-info-main .form-group input:focus,
-.w3l-contact-info-main .form-group textarea:focus {
+.w3l-contact-info-main .form-group select:focus,
+.w3l-contact-info-main .form-group textarea:focus
+ {
   border-color: var(--primary-color);
   background: var(--bg-color);
 }
