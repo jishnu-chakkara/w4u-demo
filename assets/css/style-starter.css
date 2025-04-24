@@ -20780,7 +20780,7 @@ h5.contact-text {
 .w3l-contact-info-main .form-group input,
 .w3l-contact-info-main .form-group textarea,
 .w3l-contact-info-main .form-group select,
-.w3l-contact-info-main .form-group option {
+.w3l-contact-info-main .form-group option{
   outline: none;
   padding: 13px 15px;
   color: var(--heading-color);
@@ -20793,13 +20793,43 @@ h5.contact-text {
   border-radius: 6px;
 }
 
+.w3l-contact-info-main .accordion-header button {
+  color: var(--heading-color);
+
+}
+
+.w3l-contact-info-main .course-list ul,
+.w3l-contact-info-main .lister li{
+  outline: none;
+  padding: 13px 15px;
+  color: var(--heading-color);
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid var(--border-color-light);
+  background: var(--bg-lightgrey);
+  height: auto;
+  box-shadow: none;
+  border-radius: 6px;
+}
+.w3l-contact-info-main .course-list ul,
+.w3l-contact-info-main .lister li
+ {
+  border-color: var(--primary-color);
+  background: var(--bg-color);
+}
+
+
+
+
 .w3l-contact-info-main .form-group textarea {
   min-height: 140px;
 }
 
 .w3l-contact-info-main .form-group input:focus,
 .w3l-contact-info-main .form-group select:focus,
-.w3l-contact-info-main .form-group textarea:focus
+.w3l-contact-info-main .form-group textarea:focus,
+.w3l-contact-info-main .accordion-header h2,
+.w3l-contact-info-main .accordion-header button
  {
   border-color: var(--primary-color);
   background: var(--bg-color);
@@ -20854,7 +20884,7 @@ h5.contact-text {
 }
 
 .course-contents {
-  background-color: white;
+
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -20876,7 +20906,7 @@ h5.contact-text {
 .course-list li {
   padding: 0.8rem 1rem;
   margin-bottom: 0.5rem;
-  background-color: #f8f9fa;
+ 
   border-left: 4px solid var(--secondary-color);
   transition: all 0.3s ease;
 }
@@ -20884,6 +20914,7 @@ h5.contact-text {
 .course-list li:hover {
   transform: translateX(5px);
   background-color: #e9f5ff;
+  color: #04414d;
 }
 
 .course-image {
